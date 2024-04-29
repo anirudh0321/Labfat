@@ -33,5 +33,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Build application
       run: |
-        chmod +x Labfat/build.sh  # Ensure build.sh has execute permissions
-        ./path/to/build.sh         # Execute the build script
+       ./build.sh
